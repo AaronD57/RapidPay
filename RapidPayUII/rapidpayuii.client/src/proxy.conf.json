@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "https://localhost:5001", // or the correct port for your backend
+    "secure": false
+  }
+}

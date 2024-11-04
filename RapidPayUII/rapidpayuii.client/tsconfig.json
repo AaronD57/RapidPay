@@ -1,0 +1,33 @@
+/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
+/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
+{
+  "baseUrl": "./",
+  "paths": {
+    "*": [
+      "node_modules/*",
+      "src/*"
+    ]
+  },
+
+
+
+
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": [ "es2018", "dom" ],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist/out-tsc",
+    "rootDir": "./src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": true, // This setting is important for using tslib
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "angularCompilerOptions": {
+    "enableIvy": true
+  }
+}
+
